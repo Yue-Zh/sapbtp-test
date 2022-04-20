@@ -1,0 +1,52 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.untitledPrototypeCopyCopy.controller.Page1_1" xmlns="sap.m" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="false" title="Page Title" showFooter="false" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="225px" top="150px">
+                        <layout:control>
+                            <SearchField value="" placeholder="" showSearchButton="true" visible="true" width="auto"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="60px" top="232px">
+                        <layout:control>
+                            <TextArea value="会計年度" rows="1" cols="10" maxLength="0" wrapping="None" enabled="true" required="false" valueStateText="Invalid entry" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="57px" top="150px">
+                        <layout:control>
+                            <TextArea value="会社コード" rows="1" cols="10" maxLength="0" wrapping="None" enabled="true" required="false" valueStateText="Invalid entry" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="226px" top="234px">
+                        <layout:control>
+                            <SearchField value="" placeholder="" showSearchButton="true" visible="true" width="auto"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="222px" top="319px">
+                        <layout:control>
+                            <SearchField value="" placeholder="" showSearchButton="true" visible="true" width="auto"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="59px" top="317px">
+                        <layout:control>
+                            <TextArea value="伝票番号" rows="1" cols="10" maxLength="0" wrapping="None" enabled="true" required="false" valueStateText="Invalid entry" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>
